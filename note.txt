@@ -1,0 +1,1 @@
+Every time we have some synchronous action its just going to be offloaded and then, when its time we invoke the callback.
