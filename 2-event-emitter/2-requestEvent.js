@@ -2,6 +2,7 @@ const http = require('http');
 const PORT = 8000;
 
 // Using Event Emmiter API
+// behind the scene server emits the request event
 const server = http.createServer();
 // emits request event
 // subscribe to it / listen for it / respond to it
